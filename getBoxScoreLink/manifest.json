@@ -1,0 +1,14 @@
+{
+    "name": "GetNBABoxScoreLink",
+    "description" : "NBA楽天の試合ページから、NBA.comのボックススコアページのURLを生成する。",
+    "manifest_version": 3,
+	"version": "1.0",
+    "action": {
+		"default_icon": "logo.png",
+    	"default_title": "logo"
+	},
+	"permissions": ["activeTab","scripting"],
+	"background": {
+		"service_worker": "getBoxScoreLink.js"
+	}
+}
